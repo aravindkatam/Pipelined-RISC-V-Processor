@@ -1,0 +1,162 @@
+$date
+   Wed Jun 25 13:07:12 2025
+$end
+
+$version
+  2023.2
+  $dumpfile ("memory_cycle_tb.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module memory_cycle_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 1 # regwritem $end
+$var reg 1 $ memwritem $end
+$var reg 1 % resultsrcm $end
+$var reg 5 & rd_m [4:0] $end
+$var reg 32 ' pcplus4m [31:0] $end
+$var reg 32 ( writedatam [31:0] $end
+$var reg 32 ) aluresultm [31:0] $end
+$var wire 1 * regwritew $end
+$var wire 1 + resultsrcw $end
+$var wire 5 , rd_w [4:0] $end
+$var wire 32 - pcplus4w [31:0] $end
+$var wire 32 . readdataw [31:0] $end
+$var wire 32 / aluresultw [31:0] $end
+$scope module uut $end
+$var wire 1 0 clk $end
+$var wire 1 1 rst $end
+$var wire 1 2 regwritem $end
+$var wire 1 3 memwritem $end
+$var wire 1 4 resultsrcm $end
+$var wire 5 5 rd_m [4:0] $end
+$var wire 32 6 pcplus4m [31:0] $end
+$var wire 32 7 writedatam [31:0] $end
+$var wire 32 8 aluresultm [31:0] $end
+$var wire 1 * regwritew $end
+$var wire 1 + resultsrcw $end
+$var reg 5 9 rd_w [4:0] $end
+$var reg 32 : pcplus4w [31:0] $end
+$var reg 32 ; readdataw [31:0] $end
+$var reg 32 < aluresultw [31:0] $end
+$var wire 1 = readdatam $end
+$var reg 1 > regwritem_r $end
+$var reg 1 ? resultsrcm_r $end
+$var reg 5 @ rd_m_r [4:0] $end
+$var reg 32 A pcplus4m_r [31:0] $end
+$var reg 32 B readdatam_r [31:0] $end
+$var reg 32 C aluresultm_r [31:0] $end
+$scope module dmem $end
+$var wire 1 0 clk $end
+$var wire 1 1 rst $end
+$var wire 1 3 we $end
+$var wire 32 8 a [31:0] $end
+$var wire 32 7 wd [31:0] $end
+$var wire 32 D rd [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+b0 &
+b1100100 '
+b0 (
+b100 )
+z*
+z+
+bx ,
+bx -
+bx .
+bx /
+00
+01
+02
+03
+04
+bx 5
+bx 6
+b0 7
+bx 8
+bx 9
+bx :
+bx ;
+bx <
+x=
+0>
+0?
+b0 @
+b0 A
+b0 B
+b0 C
+b0x D
+$end
+
+#5000
+1!
+10
+
+#10000
+0!
+1"
+00
+11
+bx D
+
+#15000
+1!
+10
+bx @
+bx A
+b0x B
+bx C
+
+#20000
+0!
+1#
+1$
+1%
+b1010 &
+b1101000 '
+b11011110101011011011111011101111 (
+00
+12
+13
+14
+b11011110101011011011111011101111 7
+
+#25000
+1!
+10
+1>
+1?
+
+#30000
+0!
+0$
+b0 (
+00
+03
+b0 7
+
+#35000
+1!
+10
+
+#40000
+0!
+00
+
+#45000
+1!
+10

@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/decode_cycle.v,1751364376,verilog,,/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/execute_cycle.v,,alu_decoder;control_unit_top;decode_cycle;decode_cycle_tb;main_decoder;register_file;sign_extend,,,,,,,,
+/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/execute_cycle.v,1751360671,verilog,,/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/fetch_cycle.v,,alu;execute_cycle;execute_cycle_tb;mux1;mux_3_by_1_1;pc_adder1,,,,,,,,
+/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/fetch_cycle.v,1750996161,verilog,,/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/hazard_unit.v,,fetch_cycle;fetch_cycle_tb;instruction_memory;mux;pc_adder;pc_module,,,,,,,,
+/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/hazard_unit.v,1751277544,verilog,,/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/memory_cycle.v,,hazard_unit;hazard_unit_tb,,,,,,,,
+/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/memory_cycle.v,1751365561,verilog,,/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/writeback_cycle.v,,data_memory;memory_cycle;memory_cycle_tb,,,,,,,,
+/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/pipeline_top.v,1751358558,verilog,,,/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/fetch_cycle.v;/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/decode_cycle.v;/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/execute_cycle.v;/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/memory_cycle.v;/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/writeback_cycle.v,pipeline_top;pipeline_top_tb,,,,,,,,
+/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/writeback_cycle.v,1751362602,verilog,,/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/pipeline_top.v,,mux_3_by_1;writeback_cycle;writeback_cycle_tb,,,,,,,,

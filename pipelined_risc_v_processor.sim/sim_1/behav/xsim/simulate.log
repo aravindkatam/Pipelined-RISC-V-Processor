@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+==== PIPELINE TOP TEST START ====
+==== PIPELINE TOP TEST FINISH ====
+$finish called at time : 120 ns : File "/home/avi/pipelined_risc_v_processor/pipelined_risc_v_processor.srcs/sources_1/new/pipeline_top.v" Line 119
